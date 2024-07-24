@@ -8,13 +8,43 @@
   "compatibility": {
     "minimum": 11,
     "verified": 11.315,
-    "maximum": 99
+    "maximum": 12
   },
   "authors": [
     {
       "name": "Android8675",
       "url": "https://github.com/Android8675",
       "discord": "Android8675#"
+    }
+  ],
+  "packs": [
+    {
+      "name":   "eq-icons",
+      "label":  "EverQuest Icons",
+      "path":   "packs/eq-icons.db",
+      "type":   "JournalEntry",
+      "private": false
+    },
+    {
+      "name":   "eq-items",
+      "label":  "EverQuest Items",
+      "path":   "packs/eq-items.db",
+      "type":   "Item",
+      "system": "dnd5e",
+      "private": false
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "EverQuest",
+      "sorting": "a",
+      "color": "#2699D9",
+      "ownership": {
+        "PLAYER": "NONE"
+      },
+      "packs": [
+        "eq-icons","eq-items"
+      ]
     }
   ],
   "relationships": {
