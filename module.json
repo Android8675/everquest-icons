@@ -30,6 +30,7 @@
       "label":  "EverQuest Items",
       "path":   "packs/eq-items.db",
       "type":   "Item",
+      "system": "dnd5e",
       "private": false
     }
   ],
